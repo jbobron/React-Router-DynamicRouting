@@ -1,0 +1,118 @@
+/* main.css */
+
+body {
+  margin: 0;
+  font-family:arial,sans-serif;
+  background-color: #f2f2f2;
+}
+.header {
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #e8e8e8;
+}
+.logo {
+  display: inline-block;
+  height: 60px;
+  width: 110px;
+}
+.searchBar {
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
+  font-size: 16px;
+  height:100%;
+}
+.searchForm {
+  display: inline-block;
+}
+.textBox {
+  width: 220px;
+  height: 15px;
+  padding: 4px 10px;
+  margin-right: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+a {
+  color:black !important;
+}
+a:hover {
+  border-width: 2px;
+}
+
+.inputForm {
+  margin-right: 10px;
+}
+.index {
+
+}
+.videosGrid {
+  padding: 10px;
+  margin:10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-bottom: 12px;
+  background-color: white;
+  top:10px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.videoCard {
+  padding: 10px;
+  margin:10px;
+  height:auto;
+  width:196px;
+  font-size: 10px;
+}
+
+.vidTitle {
+  font-size: 13px;
+  color:blue;
+  font-weight: bold;
+  margin: 1px;
+  margin-top: 4px;
+}
+.viewsDates {
+  display: inline-block;
+  list-style: none;
+  padding-right:5px;
+}
+li.viewsDates:last-child:before{
+  content: "\002022";
+  padding-right: 4px;
+}
+
+
+.searchIcon {
+  margin-left: -10%;
+}
+.inputForm {
+  width: 60%;
+  padding:5px;
+  margin:5px;
+}
+
+.uploadButton{
+  margin-left: 90px;
+}
+.ulviewsDates{
+  margin-left: 0;
+  padding: 0;
+}
+
+.viewercontent{
+
+  margin-left: 10%;
+  margin-right:10%;
+  padding-top:10px;
+  background-color: white;
+
+}
+button.searchButton{
+  width:50px;
+    margin-left: -5%;
+}
+
+
