@@ -20,7 +20,7 @@ var App = React.createClass({
           date: "2 months ago",
           title: "Top 10 Soccer Goals",
           url: "https://www.youtube.com/watch?v=rYZW_ujLH40",
-          views: 10000023400,
+          views: "10,000,023,400",
           img:"https://i.ytimg.com/vi_webp/rYZW_ujLH40/mqdefault.webp"
         }, 
         {
@@ -29,26 +29,35 @@ var App = React.createClass({
           date: "4 years ago",
           title: "Dog Sneezing",
           url: "https://www.youtube.com/watch?v=829os-2BQBM",
-          views: 10000000,
+          views: "10,000,000",
           img:"https://i.ytimg.com/vi_webp/829os-2BQBM/mqdefault.webp"
         },
         {
           id:2,
-          author: "Rover Hendrix",
-          date: "4 years ago",
-          title: "Dog Sneezing",
-          url: "https://www.youtube.com/watch?v=829os-2BQBM",
-          views: 10000000,
-          img:"https://i.ytimg.com/vi_webp/829os-2BQBM/mqdefault.webp"
+          title: "Philip Seymour Hoffman Laughing",
+          author: "Tom Cruise",
+          img: "https://i.ytimg.com/vi/vq_pjh1y2Ec/mqdefault.jpg",
+          url: "https://www.youtube.com/watch?v=vq_pjh1y2Ec",
+          views: "19,999,999,990,000",
+          date: "3 months ago"
         },
         {
           id:3,
-          author: "Rover Hendrix",
-          date: "4 years ago",
-          title: "Dog Sneezing",
-          url: "https://www.youtube.com/watch?v=829os-2BQBM",
-          views: 10000000,
-          img:"https://i.ytimg.com/vi_webp/829os-2BQBM/mqdefault.webp"
+          title: "The Dream Team",
+          author: "MySternumHurts",
+          img: "https://i.ytimg.com/vi_webp/YpM5Q0hJ_so/mqdefault.webp",
+          url: "https://www.youtube.com/watch?v=YpM5Q0hJ_so",
+          views: "1,046,713",
+          date: "2 weeks ago"
+        },
+        {
+          id:4,
+          title: "Brian Regan - Very Funny Stand Up Comedy Enjoy",
+          author: "Sam Samson",
+          img: "https://i.ytimg.com/vi_webp/zVRVA3mun3Q/mqdefault.webp",
+          url: "https://www.youtube.com/watch?v=zVRVA3mun3Q",
+          views: "3,255,775",
+          date: "Yesterday"
         }
       ]
     }
